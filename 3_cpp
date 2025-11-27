@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main() {
+    char s1[100], s2[100];
+    cout << "Enter a string: ";
+    cin.getline(s1, 100);
+
+    strcpy(s2, s1);
+    cout << "Copied string: " << s2;
+}
